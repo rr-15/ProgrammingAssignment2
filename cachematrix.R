@@ -32,7 +32,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve function computes the inverse of a matrix. If the inverse 
-## has already been cacluated and matrix has not changed then the cached value 
+## has already been calculated and matrix has not changed then the cached value 
 ## is returned. The input matrix should be an invertible matrix.
 
 cacheSolve <- function(x, ...) {
